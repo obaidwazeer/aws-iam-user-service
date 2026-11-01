@@ -1,0 +1,23 @@
+# Ignore local Terraform cache directories recursively
+**/.terraform/
+
+# Ignore provider lock files recursively
+**/.terraform.lock.hcl
+
+# Ignore all state files and backups recursively
+**/*.tfstate
+**/*.tfstate.*
+
+# Ignore auto-generated crash logs recursively
+**/crash.log
+**/crash.*.log
+
+# Ignore local environment variable files (secrets) recursively
+**/*.tfvars
+**/*.tfvars.json
+
+# Ignore local override files recursively
+**/*.tf_override
+**/*.tf_override.json
+**/override.tf
+**/override.tf.json
